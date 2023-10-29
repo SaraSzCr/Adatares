@@ -64,14 +64,14 @@
   height: 579px;
   margin: 504px 0 0;
   padding: 30px 15px 45px;
-  opacity: 0.2;
+  /* opacity: 0.2; */
   background-color: var(--cool-grey);
 }
 
 .strengths {
   width: 290px;
   height: 45px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 22px;
   font-weight: 500;
   font-stretch: normal;
@@ -80,14 +80,14 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
-  display:block;
+  display: block;
 }
 
 .strengths-text {
   width: 290px;
   height: 192px;
-  margin: 45px 0 30px;
-  font-family: OpenSans;
+  margin: 0 0 30px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -96,4 +96,5 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--gunmetal);
+  display: block;
 }
