@@ -3,11 +3,12 @@
 }
 
 .header {
-  width: 320px;
-  height: 100px;
+  width: 100vw;
 
   color: #ffffff;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 30px;
 }
 .main-nav {
   display: flex;
@@ -16,6 +17,7 @@
 .team-name {
   background-color: #099d8d;
   font-size: 16px;
+
   height: 60px;
   display: flex;
   align-items: center;
@@ -29,16 +31,13 @@
   align-items: center;
   justify-content: space-around;
 }
-.hero {
-  display: flex;
-  flex-direction: column;
-}
+
 .image {
-  width: 320px;
+  width: 100vw;
   height: 300px;
 }
 .paragraph-container {
-  width: 260px;
+  width: 290px;
   height: 80px;
   background-color: white;
   border: solid black;
@@ -46,5 +45,5 @@
   padding: 14px 15px 16px;
   display: flex;
   align-items: center;
-  margin: 0 15px;
+  margin: auto;
 }
