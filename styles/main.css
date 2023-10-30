@@ -102,3 +102,41 @@
   display: block;
   z-index: 1;
 }
+
+.footer {
+  padding: 30px;
+  border-top:1px solid var(--cool-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu-footer {
+  padding:30px 0;
+}
+
+.menu-footer li {
+  text-align:center;
+}
+.menu-footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--gunmetal);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.copy {
+  font-size: 14px;
+  color: var(--cool-grey)
+}
+.logo-footer {
+  width: 135px;
+}
+
+.logo-footer img {
+  width: 100%;
+}
