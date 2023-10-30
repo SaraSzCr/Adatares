@@ -10,7 +10,7 @@
   --gunmetal: #54585a;
   --blue-green: #099d8d;
   --cool-grey: #b8b8b9;
-  --cool-grey-opacity02: rgba(184, 184, 185, 0.2);
+  /* --cool-grey-opacity02: rgba(184, 184, 185, 0.2); */
   --white: #fff;
 }
 
@@ -65,8 +65,9 @@
   height: 579px;
   margin: 504px 0 0;
   padding: 30px 15px 45px;
-  /* opacity: 0.2; */
-  background-color: var(--cool-grey-opacity02);
+  opacity: 0.2;
+  background-color: var(--cool-grey);
+  /* background-color: var(--cool-grey-opacity02); */
 }
 
 .strengths {
@@ -82,6 +83,7 @@
   text-align: center;
   color: var(--blue-green);
   display: block;
+  z-index: 1;
 }
 
 .strengths-text {
@@ -98,4 +100,5 @@
   text-align: center;
   color: var(--gunmetal);
   display: block;
+  z-index: 1;
 }
