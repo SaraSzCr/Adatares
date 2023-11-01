@@ -49,13 +49,15 @@
 
 .image {
   width: 100vw;
-  height: 300px;
+  height: 50vh;
 
   position: absolute;
 }
-/* .image-hero {
-  position: relative;
-} */
+.image-hero {
+  width: 320px;
+  height: 360px;
+  /* position: relative; */
+}
 .paragraph-container {
   width: 290px;
   height: 80px;
@@ -70,9 +72,7 @@
   margin: -20px;
   margin-left: 50px;
   z-index: 2; */
-
   position: relative;
-  top: 280px;
 }
 
 .square {
