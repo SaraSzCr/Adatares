@@ -3,7 +3,6 @@
 
   color: var(--white);
   font-family: "Rubik", sans-serif;
-
   line-height: 30px;
 }
 .main-nav {
@@ -51,9 +50,9 @@
   display: flex;
   align-items: center;
   margin: auto;
-  /* position: relative;
+  /*
     margin: -20px;
     margin-left: 50px;
     z-index: 2; */
-    position: relative;
-  }
+  position: relative;
+}
