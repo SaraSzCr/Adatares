@@ -1,5 +1,59 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+  width: 100vw;
+
+  color: var(--white);
+  font-family: "Rubik", sans-serif;
+
+  line-height: 30px;
 }
+.main-nav {
+  display: flex;
+  flex-direction: column;
+}
+.team-name {
+  background-color: var(--blue-green);
+  font-size: 16px;
+
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  background-color: var(--aqua);
+  list-style: none;
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero {
+  position: relative;
+}
+
+.image {
+  width: 100vw;
+  height: 40vh;
+}
+.image-hero {
+  width: 320px;
+  height: 250px;
+  position: relative;
+  z-index: -2;
+}
+.paragraph-container {
+  width: 290px;
+  height: 80px;
+  background-color: var(--white);
+  /* border: solid black; */
+  color: var(--black);
+  padding: 14px 15px 16px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  /* position: relative;
+    margin: -20px;
+    margin-left: 50px;
+    z-index: 2; */
+    position: relative;
+  }
