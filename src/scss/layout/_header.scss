@@ -1,58 +1,54 @@
 .header {
   width: 100vw;
+  height: 421px;
+  position: relative;
+  background-image: url("/images/imagen-hero2.jpg");
+  background-size: cover;
+  margin-bottom: 50px;
+}
 
+.header-links {
+  width: 100vw;
   color: var(--white);
   font-family: "Rubik", sans-serif;
   line-height: 30px;
 }
-.main-nav {
+
+.links-nav {
   display: flex;
   flex-direction: column;
 }
-.team-name {
-  background-color: var(--blue-green);
-  font-size: 16px;
 
+.links-name {
+  background-color: var(--blue-green);
+  opacity: 0.9;
+  font-size: 16px;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.menu {
+
+.links-menu {
   background-color: var(--aqua);
+  opacity: 0.9;
   list-style: none;
   display: flex;
   height: 45px;
   align-items: center;
   justify-content: space-around;
 }
-.hero {
-  position: relative;
-}
 
-.image {
-  width: 100vw;
-  height: 40vh;
-}
-.image-hero {
-  width: 320px;
-  height: 250px;
-  position: relative;
-  z-index: -2;
-}
-.paragraph-container {
+.header-paragraph {
   width: 290px;
   height: 80px;
   background-color: var(--white);
-  /* border: solid black; */
   color: var(--black);
   padding: 14px 15px 16px;
   display: flex;
   align-items: center;
   margin: auto;
-  /*
-    margin: -20px;
-    margin-left: 50px;
-    z-index: 2; */
-  position: relative;
+  position: absolute;
+  bottom: -40px;
+  left: 35px;
 }
