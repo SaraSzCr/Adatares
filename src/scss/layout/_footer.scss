@@ -1,9 +1,12 @@
+/* FOOTER */
+
+/* Mobile */
 .footer {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
   padding: 30px;
   border-top: 1px solid var(--cool-grey);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -35,3 +38,51 @@
 .logo-footer img {
   width: 100%;
 }
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 5%;
+    height: 28vh;
+    align-items: none;
+  }
+
+  .menu-footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%; 
+    height: 100%;
+    padding: 0; 
+    order: 3;
+  }
+  
+  .menu-footer li {
+    text-align: right;
+    padding: 0 0 10px 0;
+  }
+  
+  .copy {
+    width: 70%; 
+    height: 20%;
+    font-size: 14px;
+    color: var(--cool-grey);
+  }
+  
+  .logo-footer {
+    width: 70%; 
+    height: 80%;
+    order: 2;
+  }
+  
+  .logo-footer img {
+    width: 135px;
+    margin-left: -12px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* Desktop */
+  .footer {
+    padding: 0 10vw;
+  }
+}
+
