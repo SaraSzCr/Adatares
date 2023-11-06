@@ -11,12 +11,18 @@
   .who-are-we-pics {
     width: 180px;
     height: 180px;
+    /*display: block;*/
     display: block;
     margin: 0 auto;
     border: solid 5px #dddde1;
     border-radius: 4px;
   }
   
+  .container-pics {
+      display: flex;
+      justify-content: center;
+
+  }
   .names {
     margin-top: 15px;
     margin-bottom: -10px;
