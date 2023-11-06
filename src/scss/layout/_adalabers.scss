@@ -7,22 +7,20 @@
     text-align: center;
     margin-top: 15px;
   }
+  .container-pics {
+      display: flex;
+      justify-content: center;
+    }
   
   .who-are-we-pics {
     width: 180px;
     height: 180px;
-    /*display: block;*/
     display: block;
     margin: 0 auto;
     border: solid 5px #dddde1;
     border-radius: 4px;
   }
   
-  .container-pics {
-      display: flex;
-      justify-content: center;
-
-  }
   .names {
     margin-top: 15px;
     margin-bottom: -10px;
@@ -33,6 +31,11 @@
     color: black;
   }
   
+  .container-description {
+    display: flex;
+    justify-content: center;
+    }
+  
   .description {
     width: 800px;
     margin-bottom: 20px;
@@ -40,10 +43,11 @@
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     text-align: center;
-    margin-left: 23%;
+    margin-left: 0;
+    
   }
   
-  .container {
+  .container-links {
     /*border: solid 4px black;*/
     width: 100%;
     display: inline-flex;
