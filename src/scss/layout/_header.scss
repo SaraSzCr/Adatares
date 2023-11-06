@@ -11,6 +11,7 @@
   width: 100vw;
   color: var(--white);
   font-family: "Rubik", sans-serif;
+  font-size: 15px;
   line-height: 30px;
 }
 
@@ -18,10 +19,12 @@
   display: flex;
   flex-direction: column;
 }
+
 .links-menu a {
   color: var(--white);
   text-decoration: none;
 }
+
 .links-name {
   background-color: var(--blue-green);
   opacity: 0.9;
@@ -45,21 +48,24 @@
 .header-paragraph {
   width: 290px;
   height: 80px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
   background-color: var(--white);
   color: var(--black);
   padding: 14px 15px 16px;
   display: flex;
   align-items: center;
-  margin: auto;
   position: absolute;
   bottom: -40px;
   left: 35px;
 }
+
 //  Tablet
 @media (min-width: 768px) and (max-width: 1200px) {
   .header {
     background-image: url("/images/images-hero/image-hero-m.jpg");
   }
+
   .links-nav {
     flex-direction: row;
     background-color: var(--blue-green);
@@ -69,41 +75,56 @@
     opacity: 0.9;
     padding: 0px 45px;
   }
+
   .links-name {
     display: flex;
   }
+
   .links-menu {
     background-color: var(--blue-green);
-    gap: 30px;
+    gap: 20px;
+  }
+
+  .header-paragraph {
+    width: 440px;
+    left: 45px;
+    padding: 15px 30px;
+    bottom: -1px;
+    opacity: 0.9;
   }
 }
 
-//  .header-links {
-// display: flex;
-// flex-direction: column;
-
-//  }
-
 // Desktop
+@media (min-width: 1200px) {
+  .header {
+    background-image: url("/images/images-hero/image-hero-l.jpg");
+  }
 
-// @media (min-width: 1200px) {
-//   .header {
-//     background-image: url("/images/images-hero/image-hero-m.jpg");
-//   }
-//   .links-nav {
-//     flex-direction: row;
-//     border: 1px solid;
-//     background-color: var(--blue-green);
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
-//   }
-//   .links-name {
-//     display: flex;
-//   }
-//   .links-menu {
-//     background-color: var(--blue-green);
-//     gap: 30px;
-//     text-decoration: none;
-//   }
-// }
+  .links-nav {
+    flex-direction: row;
+    background-color: var(--blue-green);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.9;
+    padding: 0px 140px;
+  }
+
+  .links-name {
+    display: flex;
+  }
+
+  .links-menu {
+    background-color: var(--blue-green);
+    gap: 20px;
+  }
+
+  .header-paragraph {
+    width: 575px;
+    font-size: 24px;
+    left: 140px;
+    padding: 15px 30px;
+    bottom: -1px;
+    opacity: 0.9;
+  }
+}
