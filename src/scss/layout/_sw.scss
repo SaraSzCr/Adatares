@@ -86,54 +86,11 @@
   // DESKTOP
 
   @media (min-width: 1200px){
-    .rectangle-sw {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 1200px;
-      height: 309px;
-      margin: 50px 0 0;
-      padding: 30px 15px 45px;
-      background-color: var(--cool-grey-opacity02);
-    }
-
     .square {
-      width: 30px;
-      height: 30px;
-      margin: -45px 0px 20px 350px;
-      transform: rotate(45deg);
-      background-color: var(--white);
+      margin: -45px 0px 20px 584px;
     }
 
-    .title-sw {
-      width: 768px;
-      height: 45px;
-      font-family: 'Rubik', sans-serif;
-      font-size: 22px;
-      font-weight: 800;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 2.05;
-      letter-spacing: normal;
-      text-align: center;
-      color: var(--blue-green);
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    .rectangle-sw {
+      height: 309px;
     }
-
-    .text-sw {
-      width: 324px;
-      height: 168px;
-      margin: 15px 18.6px 0 0;
-      font-family: OpenSans;
-      font-size: 16px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.5;
-      letter-spacing: normal;
-      text-align: center;
-      color: var(--gunmetal);
-    }
-  }
+  } 
