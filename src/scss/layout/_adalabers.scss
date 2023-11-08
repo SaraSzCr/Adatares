@@ -6,14 +6,15 @@
     font-family: "Rubik", sans-serif;
     color: #099d8d;
     text-align: center;
-    margin-top: 15px;
-  }
-  .container-pics {
+    padding-top: 20px;
+    }
+
+  .container-pics-rigt, .container-pics-left {
       display: flex;
       justify-content: center;
     }
   
-  .who-are-we-pics {
+  .who-are-we-pics-right, .who-are-we-pics-left {
     width: 180px;
     height: 180px;
     display: block;
@@ -22,7 +23,7 @@
     border-radius: 5px;
   }
   
-  .names {
+  .names-right, .names-left {
     margin-top: 15px;
     margin-bottom: -10px;
     height: 45px;
@@ -32,7 +33,7 @@
     color: black;
   }
   
-  .container-description {
+  .container-description-left, .container-description-right {
     display: flex;
     justify-content: center;
     
@@ -50,7 +51,7 @@
     
   }
   
-  .container-links {
+  .container-links-right, .container-links-left {
     width: 100%;
     display: inline-flex;
     justify-content: center;
@@ -69,11 +70,13 @@
     
   }
 
-  .fa-brands .fa-linkedin, .fa-brands .fa-github .fa-solid .fa-envelope {
-    width: 25px;
-    height: 25px;
-  }
-  
-  /* min-width: 720px */
 
-  /*Separación interlineado */
+  @media (min-width: 768px) {
+
+   .container-pics-left {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+   }
+
+  }
