@@ -1,11 +1,17 @@
+* {
+  font-size: 62.5%;
+}
+
+
+
 .who-are-we {
-    height: 45px;
-    font-size: 24px;
+    height: 6rem;
+    font-size: 2.4rem;
     font-stretch: normal;
     font-family: "Rubik", sans-serif;
     color: #099d8d;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 1.5rem;
   }
   .container-pics {
       display: flex;
@@ -13,20 +19,20 @@
     }
   
   .who-are-we-pics {
-    width: 180px;
-    height: 180px;
+    width: 18rem;
+    height: 18rem;
     display: block;
     margin: 0 auto;
-    border: solid 5px #dddde1;
-    border-radius: 5px;
+    border: solid 0.5rem #dddde1;
+    border-radius: 0.5rem;
   }
   
   .names {
-    margin-top: 15px;
-    margin-bottom: -10px;
-    height: 45px;
+    margin-top: 1.5rem;
+    margin-bottom: -0.1rem;
+    height: 4.5rem;
     text-align: center;
-    font-size: 20px;
+    font-size: 2rem;
     font-family: "Open Sans", sans-serif;
     color: black;
   }
@@ -34,33 +40,39 @@
   .container-description {
     display: flex;
     justify-content: center;
+    
     }
   
   .description {
-    width: 800px;
-    margin-bottom: 20px;
+    width: 80rem;
+    margin-bottom: 0.2rem;
     color: #54585a;
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-align: center;
     margin-left: 0;
+    line-height: 1.5;
     
   }
   
   .container-links {
-    /*border: solid 4px black;*/
     width: 100%;
     display: inline-flex;
     justify-content: center;
     align-items: flex-start;
     color: #099d8d;
+    border: solid black 2px;
   }
  
   .icon {
-    height: 25px;
-    margin-left: 7px;
-    margin-right: 15px;
-    margin-bottom: 20px;
+    height: 2.5rem;
+    margin-left: 0.7rem;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
     color: #099d8d;
+    
   }
   
+  /* min-width: 720px */
+
+  /*Separación interlineado */
