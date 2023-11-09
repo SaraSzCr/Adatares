@@ -11,7 +11,7 @@
 
   .container-pics-rigt, .container-pics-left {
       display: flex;
-      flex-direction: row;
+      justify-content: center;
     }
   
   .who-are-we-pics-right, .who-are-we-pics-left {
@@ -76,7 +76,7 @@
    .container-pics-left {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
    }
 
   }
