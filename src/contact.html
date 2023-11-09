@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Primer proyecto</title>
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/66349fc88a.js" crossorigin="anonymous"></script>
+      
+        <link rel="stylesheet" href="./scss/main-contact.scss" />
+        <link rel="stylesheet" href="./scss/core/_reset.scss" />
+        <link rel="icon" href="./images/favicon.png" />
+      </head>
+<body>
+    <load src="/partials/header.html" />
+    <main>
+    <section class="about-us" id="about-us">
+        <div>
+            <spam class="cont-a">CONTACTO</spam>
+            <span class="loren_abaut">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum ullamcorper mauris, vel convallis metus
+                eleifend in. Cras hendrerit at ante eget auctor. Nunc maximus ipsum non volutpat convallis. Morbi interdum
+                neque et aliquam varius.
+            </span>
+            <p>
+                Todos los campos marcados con <span class="star">*</span> son obligatorios.
+            </p>
+        </div>
+    </section>
+    <form class= "formulario" action="#" method="post">
+        <label for="lastname">Nombre completo<span class="star">*</span></label>
+        <input type="text" id="lastname" name="lastname" placeholder="Nombre..." required>
+        
+        <label for="email">Email<span class="star">*</span></label>
+        <input type="email" id="email" name="email" value="nombre.apellidos@mail.com" required>
+        
+        <label for="telephone">Teléfono:</label>
+        <input type="tel" id="telephone" name="telephone" placeholder="Ej 123456789">
+        
+        <label for="message">Mensaje<span class="star">*</span></label>
+        <textarea id="message" name="message" rows="6" placeholder="¿Qué necesitas?" required></textarea>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    </main>
+    <load src="/partials/footer.html" />
+</body>
+</html>
