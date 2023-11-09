@@ -6,3 +6,76 @@
 @import "layout/contact/text-contact";
 @import "layout/footer";
 @import "pages/index";
+
+
+.star {
+    color: var(--aqua)
+}
+
+.main_contact {
+    max-width: 700px;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+        .main_contact {
+            max-width: 500px;
+        }
+    }
+}
+
+.form { 
+    padding: 50px 15px;
+    label, input, textarea {
+        display: block;
+        color: var(--gunmetal);
+        font-family: 'OpenSans', sans-serif;
+    }
+    label {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+
+    input, textarea {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+        margin-bottom: 15px;
+        &:focus {
+            background-color: var(--light-grey);
+        }
+    }
+
+    textarea {
+        margin-bottom: 30px;
+    }
+
+    @media (min-width: 1200px) {
+        .box {
+            display: flex;
+            gap: 40px;
+
+            .email-box {
+                width: 70%;
+            }
+
+            .tel-box {
+                width: 30%;
+            }
+        }
+    }
+
+    .form_button {
+        border-radius: 4px;
+        border: none;
+        padding: 15px;
+        font-family: 'OpenSans', sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        background-color: var(--blue-green);
+        color: white;
+        &:hover {
+            background-color: var(--gunmetal);
+            cursor: pointer;
+        }
+    }
+}

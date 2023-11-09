@@ -1,0 +1,113 @@
+.header {
+    width: 100vw;
+    height: 421px;
+    position: relative;
+    background-image: url("/images/images-contact/imagen-contacto.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+  }
+  
+  .header-links {
+    width: 100vw;
+    color: var(--white);
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  
+  .links-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .links-menu a {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  .links-name {
+    background-color: var(--blue-green);
+    opacity: 0.9;
+    font-size: 16px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .links-menu {
+    background-color: var(--aqua);
+    opacity: 0.9;
+    list-style: none;
+    display: flex;
+    height: 45px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .header-paragraph {
+    display: none;
+  }
+  
+  //  Tablet
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .links-nav {
+      flex-direction: row;
+      background-color: var(--blue-green);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      opacity: 0.9;
+      padding: 0px 45px;
+    }
+  
+    .links-name {
+      display: flex;
+    }
+  
+    .links-menu {
+      background-color: var(--blue-green);
+      gap: 20px;
+    }
+  
+    .header-paragraph {
+      width: 440px;
+      left: 45px;
+      padding: 15px 30px;
+      bottom: -1px;
+      opacity: 0.9;
+    }
+  }
+  
+  // Desktop
+  @media (min-width: 1200px) {
+    .links-nav {
+      flex-direction: row;
+      background-color: var(--blue-green);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      opacity: 0.9;
+      padding: 0px 140px;
+    }
+  
+    .links-name {
+      display: flex;
+    }
+  
+    .links-menu {
+      background-color: var(--blue-green);
+      gap: 20px;
+    }
+  
+    .header-paragraph {
+      width: 575px;
+      font-size: 24px;
+      left: 140px;
+      padding: 15px 30px;
+      bottom: -1px;
+      opacity: 0.9;
+    }
+  }
+  
