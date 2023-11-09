@@ -70,14 +70,25 @@
     
   }
 
-/*
+
   @media (min-width: 768px) {
 
-   .container-pics-left {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+    .container-pics {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+
+    }
+
+    .EstherPic {
+    
    }
 
+    .container-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+
+
   }
-*/
