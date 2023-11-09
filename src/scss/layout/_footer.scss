@@ -2,8 +2,6 @@
 
 /* Mobile */
 #footer {
-  display: grid;
-  grid-column: 1;
   padding: 30px 45px 45px;
   font-family: "Open Sans", sans-serif;
   border-top: 1px solid var(--cool-grey);
@@ -29,6 +27,7 @@
 }
 
 .footer-logo {
+  display: block;
   width: 135px;
   margin: 0 auto;
 }
@@ -40,9 +39,10 @@
 /* Tablet */
 @media screen and (min-width: 768px) {
   #footer {
-    padding: 30px 45px 50px;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 35px 50px;
+    padding: 30px 45px 50px;
   }
 
   .footer-menu {
