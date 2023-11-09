@@ -9,12 +9,12 @@
     padding-top: 20px;
     }
 
-  .container-pics-rigt, .container-pics-left {
+  .container-pics {
       display: flex;
       justify-content: center;
     }
   
-  .who-are-we-pics-right, .who-are-we-pics-left {
+  .who-are-we-pics {
     width: 180px;
     height: 180px;
     display: block;
@@ -23,7 +23,7 @@
     border-radius: 5px;
   }
   
-  .names-right, .names-left {
+  .names {
     margin-top: 15px;
     margin-bottom: -10px;
     height: 45px;
@@ -33,7 +33,7 @@
     color: black;
   }
   
-  .container-description-left, .container-description-right {
+  .container-description {
     display: flex;
     justify-content: center;
     
@@ -51,7 +51,7 @@
     
   }
   
-  .container-links-right, .container-links-left {
+  .container-links {
     width: 100%;
     display: inline-flex;
     justify-content: center;
@@ -70,7 +70,7 @@
     
   }
 
-
+/*
   @media (min-width: 768px) {
 
    .container-pics-left {
@@ -80,3 +80,4 @@
    }
 
   }
+*/
