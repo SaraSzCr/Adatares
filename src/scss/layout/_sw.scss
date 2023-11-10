@@ -1,18 +1,21 @@
-.square {
+
+.rectangle-sw {
+  width: 100vw;
+  height: 579px;
+  margin: 50px 0 0;
+  padding: 30px 15px 45px;
+  background-color: var(--cool-grey-opacity02);
+  position: relative; 
+  .square {
     width: 30px;
     height: 30px;
-    margin: -45px 0px 20px 130px;
-    transform: rotate(45deg);
     background-color: var(--white);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
   }
-  
-  .rectangle-sw {
-    width: 100vw;
-    height: 579px;
-    margin: 50px 0 0;
-    padding: 30px 15px 45px;
-    background-color: var(--cool-grey-opacity02);
-  }
+}
   
   .title-sw {
     width: 100%;
