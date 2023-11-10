@@ -14,16 +14,15 @@
       justify-content: center;
     }
   
-  .who-are-we-pics {
+  .who-are-we-pics, .who-are-we-pics-left, .who-are-we-pics-right {
     width: 180px;
     height: 180px;
-    display: block;
     margin: 0 auto;
     border: solid 5px #dddde1;
     border-radius: 5px;
   }
   
-  .names {
+  .names, .names-left, .names-right {
     margin-top: 15px;
     margin-bottom: -10px;
     height: 45px;
@@ -39,7 +38,7 @@
     
     }
   
-  .description {
+  .description, .description-left, .description-right {
     width: 800px;
     margin-bottom: 2px;
     color: #54585a;
@@ -51,7 +50,7 @@
     
   }
   
-  .container-links {
+  .container-links, .container-links-left, .container-links-right {
     width: 100%;
     display: inline-flex;
     justify-content: center;
@@ -70,25 +69,119 @@
     
   }
 
+  /* TABLET LEFT*/
 
   @media (min-width: 768px) {
 
-    .container-pics {
-      width: 100%;
-      display: flex;
-      justify-content: flex-start;
 
+   .who-are-we {
+    padding-top: 70px;
     }
 
-    .EstherPic {
-    
+   .left-art {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 70px;
+   }
+   
+   
+   .left-pics {
+    display: flex;
+    width: 100%;
+    justify-content: left;
    }
 
-    .container-left {
-    width: 100%;
+   .left-side {
     display: flex;
     flex-direction: column;
+    padding-bottom: 70px;
+   }
+     
+   .names-left {
+    text-align: left;
+    margin-top: 0;
+    padding-bottom: 0;
+
+   }
+   
+   .who-are-we-pics-left {
+   margin-left: 54px;
+   width: 205px;
+   height: 250px;
+  }
+
+  .description-left {
+    text-align: left;
+    box-sizing: border-box;
+    width: 60vw;
+  }
+
+  .container-links-left {
+    display: flex;
+    justify-content: left;
+    padding-top: 0;
+  }
+
+}
+
+/* TABLET LEFT*/
+/*
+________________________*/
+
+/*TABLET RIGHT*/
+
+
+@media (min-width: 768px) {
+
+
+  .who-are-we {
+   padding-top: 70px;
    }
 
+  .right-art {
+   display: flex;
+   flex-direction: row-reverse;
+   width: 100%;
+   justify-content: space-evenly;
+   
+  }
+  
+  .right-pics {
+   display: flex;
+   width: 100%;
+   justify-content: right;
+  }
+
+  .right-side {
+   display: flex;
+   flex-direction: column;
+  
+  }
+    
+  .names-right {
+   text-align: right;
+   margin-top: 0;
+   padding-bottom: 0;
 
   }
+  
+  .who-are-we-pics-right {
+  margin-right: 54px;
+  width: 205px;
+  height: 250px;
+ }
+
+ .description-right {
+   text-align: right;
+   box-sizing: border-box;
+   width: 60vw;
+ }
+
+ .container-links-right {
+   display: flex;
+   justify-content: right;
+   padding-top: 0;
+ }
+
+}
