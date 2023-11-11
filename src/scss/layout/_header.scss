@@ -14,6 +14,8 @@
   font-family: "Rubik", sans-serif;
   font-size: 15px;
   line-height: 30px;
+  position: fixed;
+  z-index: 10;
 }
 
 .links-nav {
@@ -21,13 +23,15 @@
   flex-direction: column;
 }
 
-.links-menu a {
+.links-nav a {
   color: var(--white);
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .links-name {
   background-color: var(--blue-green);
+  text-transform: uppercase;
   opacity: 0.9;
   font-size: 16px;
   height: 60px;
