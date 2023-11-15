@@ -1,5 +1,10 @@
 .about-us {
     background-color: var(----white);
+    margin: auto;
+    @media screen and (min-width: 1024px){
+        padding: 100px;
+        
+    }
 }
 
 .cont-a {
@@ -13,6 +18,7 @@
     height: 100%;
     line-height: 1.88;
     display: block;
+    text-transform: uppercase;
 }
 
 .loren_abaut {
@@ -23,4 +29,5 @@
     color: var(--gunmetal);
     display: block;
     margin: 1.5rem;
+    padding: 10px;
 }
