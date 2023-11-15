@@ -6,7 +6,9 @@ En este ejercicio grupal se evalúan los conocimientos que hemos adquirido duran
 
 - HTML
 - CSS
+- Sass
 - Flexbox
+- CSS Grid
 - Formularios
 
 ### Link Github Pages 
