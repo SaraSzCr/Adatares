@@ -45,8 +45,8 @@ npm run dev
 
 ## Autoras 👩‍💻
 
-[Esther García](https://www.github.com/esgab)
-[Marta Almeida](https://github.com/Marta-Af)
-[Sara Sánchez](https://github.com/SaraSzCr)
-[Virginia De la Rosa](https://github.com/Vir19)
-[Maialen Muñoa](https://github.com/maialenmunoa)
+- [Esther García](https://www.github.com/esgab)
+- [Marta Almeida](https://github.com/Marta-Af)
+- [Sara Sánchez](https://github.com/SaraSzCr)
+- [Virginia De la Rosa](https://github.com/Vir19)
+- [Maialen Muñoa](https://github.com/maialenmunoa)
