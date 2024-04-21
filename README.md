@@ -1,6 +1,7 @@
 # Ejercicio Team 4 Módulo 1
 
-En este ejercicio grupal se evalúan los conocimientos que hemos adquirido durante el módulo 1 del Bootcamp de Programación Web de [Adalab](https://adalab.es). El ejercicio consiste en maquetar una landing + página de contacto con un diseño Mobile First, que se adapta de forma responsive a los diferentes dispositivos tablet y desktop. 
+Este ejercicio grupal consiste en maquetar una página landing y una página de contacto con un diseño Mobile First, que se adapta de forma responsive a los diferentes dispositivos tablet y desktop. 
+En está página web presentamos a cada una de las integrantes del equipo Adatares y creamos un formulario que permite a la usuaria ponerse en contacto con nosotras para cualquier duda o petición.
 
 ¿Qué tecnologías hemos utilizado?
 
@@ -13,7 +14,7 @@ En este ejercicio grupal se evalúan los conocimientos que hemos adquirido duran
 
 ### Link Github Pages 
 
-https://beta.adalab.es/project-promo-a-module-1-team-4/
+https://saraszcr.github.io/Adatares/
 
 ## Guía rápida de inicio 
 
