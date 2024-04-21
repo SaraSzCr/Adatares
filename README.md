@@ -1,4 +1,4 @@
-# Ejercicio Team 4 Módulo 1
+# Adatares
 
 Este ejercicio grupal consiste en maquetar una página landing y una página de contacto con un diseño Mobile First, que se adapta de forma responsive a los diferentes dispositivos tablet y desktop. 
 En está página web presentamos a cada una de las integrantes del equipo Adatares y creamos un formulario que permite a la usuaria ponerse en contacto con nosotras para cualquier duda o petición.
